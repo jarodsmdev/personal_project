@@ -20,16 +20,23 @@ body {
   border: none;
   width: 60%;
   padding: 10px;
-  margin: auto;
+  margin: 5px auto;
   border-radius: 8px;
-  background-color: hsl(120deg, 55%, 65%);
   font-size: 1.1em;
   letter-spacing: 1px;
+}
+.btn-lightBlue {
+  background-color: hsl(120deg, 55%, 65%);
+}
+.btn-Red-light {
+  background-color: hsl(0deg, 85%, 62%);
+}
+.btn-Yellow {
+  background-color: hsl(60deg, 100%, 50%);
 }
 .btn:hover {
   cursor: pointer;
   opacity: 0.6;
-  background-color: hsl(204deg, 8%, 76%);
 }
 
 .input_text {
@@ -42,6 +49,16 @@ body {
   border-radius: 5px;
   outline: none;
   background-color: hsl(204deg, 8%, 76%);
+}
+
+.cbo_marca {
+  padding: 0 20px;
+}
+
+.form_label_add {
+  display: block;
+  width: 80%;
+  margin: 20px auto 5px;
 }
 
 .header {
@@ -79,7 +96,7 @@ body {
 }
 
 .container {
-  margin: 20px;
+  margin: 40px;
 }
 
 .separator-bar {

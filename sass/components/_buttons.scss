@@ -6,15 +6,28 @@
     border: none;
     width: 60%;
     padding: 10px;
-    margin: auto;
+    margin: 5px auto;
     border-radius: 8px;
-    background-color: variables.$Light-green;
     font-size: 1.1em;
     letter-spacing: 1px;
+    
+    &-lightBlue{
+        background-color: variables.$Light-green;
+    }
+
+    &-Red-light{
+        background-color: variables.$Red-light;
+    }
+
+    &-Yellow{
+        background-color: variables.$Yellow;
+    }
 
     &:hover{
         cursor: pointer;
         opacity: .6;
-        background-color: variables.$Light-blue;
+        // background-color: variables.$Light-blue;
     }
+
 }
+
