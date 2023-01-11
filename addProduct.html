@@ -19,6 +19,12 @@
                 <li class="navbar__list__links"><a href="./addProduct.html">Nuevo Producto</a></li>
             </ul>
         </nav>
+
+        <div class="header__user">
+            <p class="header__user__name">Jarod Smith</p>
+            <img class="header__user__avatar" src="./img/neo_code.jpg" alt="">
+        </div>
+
     </header>
     <hr class="separator-bar">
 
@@ -27,26 +33,26 @@
             <h2 class="main__title">Nuevo Producto</h2>
 
             <form action="" >
-                <label for="producto">Producto:
-                </label>
-                <input class="input_text" type="text" placeholder="Nombre del producto" id="producto" name="producto" autocomplete="off">
+                <label for="producto" class="form_label_add">Producto:</label>
+                <input class="input_text" type="text" placeholder="Nombre del producto" id="producto" name="producto" autocomplete="off" required>
 
-                <label for="contenido">Contenido:
-                </label>
-                <input class="input_text" type="number" placeholder="Contenido" id="contenido" name="contenido">
+                <label for="contenido" class="form_label_add">Contenido:</label>
+                <input class="input_text" type="text" placeholder="Contenido" id="contenido" name="contenido" required>
 
-                <label for="marca">Marca:
-                    <select class="input_text" name="" id="marca" name="marca">
-                        <option value="1">1</option>
-                        <option value="2">2</option>
-                        <option value="3">3</option>
-                        <option value="4">4</option>
+                <label for="marca" class="form_label_add">Marca:</label>
+                    <select class="input_text cbo_marca" id="marca" name="marca">
+                        <optgroup label="Marca">
+                        <option value="1">Marca 1</option>
+                        <option value="2">Marca 2</option>
+                        <option value="3">Marca 3</option>
+                        <option value="4">Marca 4</option>
+                        </optgroup>
                     </select>
-                </label>
+                
 
-                <input class="btn" type="submit" value="Guardar">
-                <input class="btn" type="reset" value="Limpiar">
-                <button class="btn">Volver</button>
+                <input class="btn btn-lightBlue" type="submit" value="Guardar">
+                <input class="btn btn-Red-light" type="reset" value="Limpiar">
+                <button class="btn btn-Yellow">Volver</button>
 
             </form>
 
