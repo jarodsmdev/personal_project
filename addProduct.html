@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style.css"> 
+
+    <title>Nuevo Producto</title>
+ 
+</head>
+<body class="container">
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list__links"><a href="./index.html">Inicio</a></li>
+                <li class="navbar__list__links"><a href="./addProduct.html">Nuevo Producto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr class="separator-bar">
+
+    <main>
+        <section>
+            <h2 class="main__title">Nuevo Producto</h2>
+
+            <form action="" >
+                <label for="producto">Producto:
+                </label>
+                <input class="input_text" type="text" placeholder="Nombre del producto" id="producto" name="producto" autocomplete="off">
+
+                <label for="contenido">Contenido:
+                </label>
+                <input class="input_text" type="number" placeholder="Contenido" id="contenido" name="contenido">
+
+                <label for="marca">Marca:
+                    <select class="input_text" name="" id="marca" name="marca">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </label>
+
+                <input class="btn" type="submit" value="Guardar">
+                <input class="btn" type="reset" value="Limpiar">
+                <button class="btn">Volver</button>
+
+            </form>
+
+            <picture>
+                <img src="" alt="imagen del producto">
+            </picture>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

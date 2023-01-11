@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./css/style.css">   
+
+    <title>AVISAME</title>
+</head>
+
+<body class="container">
+    <header class="header">
+        <nav class="navbar">
+            <ul class="navbar__list">
+                <li class="navbar__list__links"><a href="#">Familia</a></li>
+                <li class="navbar__list__links"><a href="#">Ofertas</a></li>
+                <li class="navbar__list__links"><a href="#">Mi lista</a></li>
+                <li class="navbar__list__links"><a href="./admin.html">Administración</a></li>
+
+            </ul>
+        </nav>
+
+        <div class="header__user">
+            <p class="header__user__name">Jarod Smith</p>
+            <img class="header__user__avatar" src="./img/neo_code.jpg" alt="">
+        </div>
+        
+    </header>
+
+    <hr class="separator-bar">
+
+    <main>
+        <h2 class="main__title">¿Qué buscas?</h2>
+        <form class="form_search" action="">
+            
+            <input class="input_text form_search__input" type="search" name="producto" id="product_search" placeholder="Oferta en..." autocomplete="off" autofocus="on">
+            <input class="btn form_search__button" type="submit" value="Buscar">
+        </form>
+
+        <table class="table_results">
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Dónde</th>
+                    <th>Fecha/Hora</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>fideos 400gr Carozzi</td>
+                    <td>$ 1.399</td>
+                    <td>Líder Viña del Mar</td>
+                    <td>29.dic.2022/18:04</td>
+                    <td class="table_results__recomended"><i class="fa-solid fa-star"></i></td>
+                </tr>
+                <tr>
+                    <td>fideos 400gr Luchetti</td>
+                    <td>$ 1.099</td>
+                    <td>Santa Isabel Viña del Mar</td>
+                    <td>30.dic.2022/14:56</td>
+                    <td class="table_results__recomended"><i class="fa-regular fa-star"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

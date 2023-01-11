@@ -1,0 +1,20 @@
+@use '../config/variables';
+
+
+.btn{
+    display: block;
+    border: none;
+    width: 60%;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    background-color: variables.$Light-green;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+
+    &:hover{
+        cursor: pointer;
+        opacity: .6;
+        background-color: variables.$Light-blue;
+    }
+}

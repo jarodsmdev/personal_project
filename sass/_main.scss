@@ -1,0 +1,53 @@
+@use 'config/variables';
+
+.main__title{
+    font-weight: 300;
+    text-align: center;
+    font-size: 2.1em;
+    margin-bottom: 20px;
+    color: variables.$Light-blue;
+    text-shadow: 8px -12px 8px variables.$Light-green;
+}
+
+.form_search__input{
+    // border: 1px solid red;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.form_search__button{
+    margin-bottom: 20px;
+}
+
+// FORMATO DE LA TABLA
+
+.table_results{
+    // border: 1px solid red;
+    font-size: .8em;
+    text-align: center;
+    color: variables.$Light-blue;
+    background-color: variables.$Black;
+    
+    & thead{
+        background-color: variables.$BlueNavy-light;
+
+        & tr th{
+            padding: 15px;
+            border-radius: 5px;
+        }
+    }
+
+    & tbody {
+        & tr:hover{
+            opacity: .5;
+        }
+    }
+
+}
+
+.table_results__recomended{
+    color: variables.$Yellow;
+    &:hover{
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,17 @@
+@use 'config/variables';
+
+// ESTILOS GENERALES 
+
+
+.container{
+    // border: 1px solid red;
+    margin: 20px;
+}
+
+.separator-bar{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 30px;
+    border: 2px solid variables.$Light-green;
+    border-radius: 10px;
+}
