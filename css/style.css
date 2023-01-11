@@ -141,6 +141,10 @@ body {
 .table_results tbody tr:hover {
   opacity: 0.5;
 }
+.table_results__description {
+  color: white;
+  text-decoration: none;
+}
 
 .table_results__recomended {
   color: hsl(60deg, 100%, 50%);
