@@ -39,7 +39,7 @@
         <h2 class="main__title">¿Qué buscas?</h2>
         <form class="form_search" action="">
             
-            <input class="input_text form_search__input" type="search" name="producto" id="product_search" placeholder="Oferta en..." autocomplete="off" autofocus="on">
+            <input class="input_text form_search__input" type="search" name="producto" id="product_search" placeholder="Oferta en..." autocomplete="off" autofocus="on" maxlength="25">
             <input class="btn form_search__button btn-lightBlue" type="submit" value="Buscar">
         </form>
 
@@ -50,24 +50,31 @@
                     <th>Precio</th>
                     <th>Dónde</th>
                     <th>Fecha/Hora</th>
-                    <th>Acciones</th>
+                    <th><i class="fa-solid fa-star"></i></th>
                 </tr>
             </thead>
 
             <tbody>
                 <tr>
-                    <td><a href="./viewProduct.html" class="table_results__description">fideos 400gr Carozzi</a></td>
+                    <td><a href="./viewProduct.html" class="table_results__description">Fideos 400gr Carozzi</a></td>
                     <td>$ 1.399</td>
                     <td>Líder Viña del Mar</td>
                     <td>29.dic.2022/18:04</td>
-                    <td class="table_results__recomended"><i class="fa-solid fa-star"></i></td>
+                    <td class="table_results__recomended"><i class="fa-solid fa-star recomendar"></i></td>
                 </tr>
                 <tr>
-                    <td><a href="./viewProduct.html" class="table_results__description">fideos 400gr Luchetti</a></td>
+                    <td><a href="./viewProduct.html" class="table_results__description">Fideos 400gr Luchetti</a></td>
                     <td>$ 1.099</td>
                     <td>Santa Isabel Viña del Mar</td>
                     <td>30.dic.2022/14:56</td>
-                    <td class="table_results__recomended"><i class="fa-regular fa-star"></i></td>
+                    <td class="table_results__recomended"><i class="fa-regular fa-star recomendar"></i></td>
+                </tr>
+                <tr>
+                    <td><a href="./viewProduct.html" class="table_results__description">Arroz 500gr Acuenta</a></td>
+                    <td>$ 799</td>
+                    <td>Santa Isabel Viña del Mar</td>
+                    <td>07.ene.2023/14:56</td>
+                    <td class="table_results__recomended"><i class="fa-regular fa-star  recomendar"></i></td>
                 </tr>
             </tbody>
         </table>

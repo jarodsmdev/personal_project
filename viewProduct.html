@@ -28,29 +28,65 @@
     </header>
     <hr class="separator-bar">
 
-    <main>
+    <main class="view_product__container">
         <section>
             <h2 class="main__title">Fideos</h2>
 
-            <div>
+            <div class="view_product__container-img">
                 <div>
-                    <img src="./img/neo_code.jpg" alt="Producto" width="300px">
+                    <img src="./img/neo_code.jpg" alt="Producto" width="300px" class="view_product__container_img--picture">
                 </div>
 
-                <div>
-                    <p>Producto: Fideos</p>
-                    <p>Marca: Carozzi</p>
-                    <p>Cantidad: 400grs</p>
-                    <p>Descripción del Producto</p>
+                <div class="view_product__text-container">
+                    <p class="view_product__text-container__text">Producto: <span>Fideos</span></p>
+                    <p class="view_product__text-container__text">Marca: <span>Carozzi</span></p>
+                    <p class="view_product__text-container__text">Cantidad: <span>400grs</span></p>
+                    <p class="view_product__text-container__text">Descripción del Producto</p>
                 </div>
             </div>
 
+        </section>
+
+        <section>
+            <table class="table_results" id="table_product">
+                <thead>
+                    <tr>
+                        <th>Precio</th>
+                        <th>Dónde</th>
+                        <th>Fecha/Hora</th>
+                        <th><i class="fa-solid fa-star"></i></th>
+                    </tr>
+                </thead>
+    
+                <tbody>
+                    <tr>
+                        <td>$ 1.399</td>
+                        <td>Líder Viña del Mar</td>
+                        <td>29.dic.2022/18:04</td>
+                        <td class="table_results__recomended"><i class="fa-solid fa-star recomendar"></i></td>
+                    </tr>
+                    <tr>
+                        <td>$ 1.099</td>
+                        <td>Santa Isabel Viña del Mar</td>
+                        <td>30.dic.2022/14:56</td>
+                        <td class="table_results__recomended"><i class="fa-regular fa-star recomendar"></i></td>
+                    </tr>
+
+                </tbody>
+            </table>
         </section>
     </main>
 
     <footer>
 
     </footer>
+    <!-- JQUERY 3.6.3 -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
+    <!-- DATATABLEJS JS 1.13.1 -->
+    <script src="https://cdn.datatables.net/1.13.1/js/jquery.dataTables.min.js"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="./js/index.js"></script>
 </body>
 </html>
