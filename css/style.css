@@ -207,10 +207,6 @@ body {
   }
 }
 
-section {
-  border: 1px solid red;
-}
-
 .view_product__text-container {
   text-align: center;
   font-weight: 700;
@@ -227,20 +223,5 @@ section {
 }
 
 /* ARCHIVO CSS GENERADO CON SASS CSS */
-@media screen and (min-width: 320px) {
-  body::after {
-    content: "320PX";
-  }
-}
-@media screen and (min-width: 480px) {
-  body::after {
-    content: "480PX";
-  }
-}
-@media screen and (min-width: 720px) {
-  body::after {
-    content: "720PX";
-  }
-}
 
 /*# sourceMappingURL=style.css.map */
