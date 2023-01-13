@@ -9,3 +9,28 @@
 @use 'body';
 @use 'main';
 
+body{
+    @media screen and (min-width:320px){
+        // background: blue;
+        // font-size: .6rem;
+        &::after{
+            content: "320PX",
+        }
+    }
+
+    @media screen and (min-width:480px){
+        // background: black;
+        // font-size: .9rem;
+        &::after{
+            content: "480PX",
+        }
+    }
+
+    @media screen and (min-width:720px){
+        // background: green;
+        // font-size: 1rem;
+        &::after{
+            content: "720PX",
+        }
+    }
+}
