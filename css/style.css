@@ -196,7 +196,7 @@ body {
 .view_product__container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 10px;
 }
@@ -220,6 +220,26 @@ body {
 
 .view_product__container_img--picture {
   border-radius: 8px;
+}
+
+@media screen and (min-width: 720px) {
+  .table_viewProduct {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .form_buttons_container {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .form_buttons {
+    width: 30%;
+  }
 }
 
 /* ARCHIVO CSS GENERADO CON SASS CSS */
