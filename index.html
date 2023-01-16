@@ -43,46 +43,68 @@
             <input class="btn form_search__button btn-lightBlue" type="submit" value="Buscar">
         </form>
 
-        <table class="table_results" id="table_product">
-            <thead>
-                <tr>
-                    <th>Producto</th>
-                    <th>Precio</th>
-                    <th>Dónde</th>
-                    <th>Fecha/Hora</th>
-                    <th><i class="fa-solid fa-star"></i></th>
-                </tr>
-            </thead>
-
-            <tbody>
-                <tr>
-                    <td><a href="./viewProduct.html" class="table_results__description">Fideos 400gr Carozzi</a></td>
-                    <td>$ 1.399</td>
-                    <td>Líder Viña del Mar</td>
-                    <td>29.dic.2022/18:04</td>
-                    <td class="table_results__recomended"><i class="fa-solid fa-star recomendar"></i></td>
-                </tr>
-                <tr>
-                    <td><a href="./viewProduct.html" class="table_results__description">Fideos 400gr Luchetti</a></td>
-                    <td>$ 1.099</td>
-                    <td>Santa Isabel Viña del Mar</td>
-                    <td>30.dic.2022/14:56</td>
-                    <td class="table_results__recomended"><i class="fa-regular fa-star recomendar"></i></td>
-                </tr>
-                <tr>
-                    <td><a href="./viewProduct.html" class="table_results__description">Arroz 500gr Acuenta</a></td>
-                    <td>$ 799</td>
-                    <td>Santa Isabel Viña del Mar</td>
-                    <td>07.ene.2023/14:56</td>
-                    <td class="table_results__recomended"><i class="fa-regular fa-star  recomendar"></i></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="table-container">
+            <table class="table_results" id="table_product">
+                <thead>
+                    <tr>
+                        <th class="row__sticky row__stiky--thead">Producto</th>
+                        <th>Precio</th>
+                        <th>Dónde</th>
+                        <th>Fecha/Hora</th>
+                        <th><i class="fa-solid fa-star"></i></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="row__sticky"><a href="./viewProduct.html" class="table_results__description">Fideos 400gr Carozzi</a></td>
+                        <td>$ 1.399</td>
+                        <td>Líder Viña del Mar</td>
+                        <td>29.dic.2022 18:04</td>
+                        <td class="table_results__recomended"><i class="fa-solid fa-star recomendar"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="row__sticky"><a href="./viewProduct.html" class="table_results__description">Fideos 400gr Luchetti</a></td>
+                        <td>$ 1.099</td>
+                        <td>Santa Isabel Viña del Mar</td>
+                        <td>30.dic.2022 14:56</td>
+                        <td class="table_results__recomended"><i class="fa-regular fa-star recomendar"></i></td>
+                    </tr>
+                    <tr>
+                        <td class="row__sticky"><a href="./viewProduct.html" class="table_results__description">Arroz 500gr Acuenta</a></td>
+                        <td>$ 799</td>
+                        <td>Santa Isabel Viña del Mar</td>
+                        <td>07.ene.2023 14:56</td>
+                        <td class="table_results__recomended"><i class="fa-regular fa-star  recomendar"></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </main>
 
-    <footer>
+    <footer class="footer_container">
+        <div class="footer_container__main">
 
+            <div class="footer_profile_container">
+                <img src="./img/neo_code.jpg" class="footer_profile_container__image" alt="Profile image">
+                <div>
+                    <p class="footer_profile_container__name"><i class="fa-solid fa-code"></i> Leonel Briones Palacios</p>
+                    <p class="footer_profile_container__email"><i class="fa-regular fa-envelope"></i> lbriones.dev@gmail.com</p>
+                    <p class="footer_profile_container__location"><i class="fa-solid fa-location-dot"></i> Quillota, Chile.</p>
+                </div>
+            </div>
+
+            <div class="footer_container__rrss">
+                <a href="https://github.com/jarodsmdev" class="footer_rrss_link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/JarodSmithsm15?t=7vI7cuGVvmnjiVw70dU_aQ&s=09" class="footer_rrss_link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="footer_rrss_link"><i class="fa-brands fa-twitch"></i></a>
+                <a href="#" class="footer_rrss_link"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/leonel-briones-palacios-340a96204/" class="footer_rrss_link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
     </footer>
+
+
     <!-- JQUERY 3.6.3 -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 

@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- DATATABLEJS 1.13.1 CSS -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.1/css/jquery.dataTables.min.css">
+    
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="./css/style.css"> 
 
@@ -38,16 +41,17 @@
                 </div>
 
                 <div class="view_product__text-container">
-                    <p class="view_product__text-container__text">Producto: <span>Fideos</span></p>
-                    <p class="view_product__text-container__text">Marca: <span>Carozzi</span></p>
-                    <p class="view_product__text-container__text">Cantidad: <span>400grs</span></p>
+                    <p class="view_product__text-container__text">Producto: <span class="text-container__details">Fideos</span></p>
+                    <p class="view_product__text-container__text">Marca: <span class="text-container__details">Carozzi</span></p>
+                    <p class="view_product__text-container__text">Cantidad: <span class="text-container__details">400grs</span></p>
                     <p class="view_product__text-container__text">Descripción del Producto</p>
                 </div>
             </div>
 
         </section>
 
-        <section>
+
+        <section class="data_container">
             <table class="table_results table_viewProduct" id="table_product">
                 <thead>
                     <tr>
@@ -71,15 +75,36 @@
                         <td>30.dic.2022/14:56</td>
                         <td class="table_results__recomended"><i class="fa-regular fa-star recomendar"></i></td>
                     </tr>
-
+                    
                 </tbody>
             </table>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer_container">
+        <div class="footer_container__main">
 
+            <div class="footer_profile_container">
+                <img src="./img/neo_code.jpg" class="footer_profile_container__image" alt="Profile image">
+                <div>
+                    <p class="footer_profile_container__name"><i class="fa-solid fa-code"></i> Leonel Briones Palacios</p>
+                    <p class="footer_profile_container__email"><i class="fa-regular fa-envelope"></i> lbriones.dev@gmail.com</p>
+                    <p class="footer_profile_container__location"><i class="fa-solid fa-location-dot"></i> Quillota, Chile.</p>
+                </div>
+            </div>
+
+            <div class="footer_container__rrss">
+                <a href="https://github.com/jarodsmdev" class="footer_rrss_link" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://twitter.com/JarodSmithsm15?t=7vI7cuGVvmnjiVw70dU_aQ&s=09" class="footer_rrss_link" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" class="footer_rrss_link"><i class="fa-brands fa-twitch"></i></a>
+                <a href="#" class="footer_rrss_link"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/in/leonel-briones-palacios-340a96204/" class="footer_rrss_link" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+
+        </div>
     </footer>
+
+
     <!-- JQUERY 3.6.3 -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
 
