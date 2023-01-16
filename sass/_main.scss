@@ -138,11 +138,13 @@
 .view_product__text-container{
     text-align: center;
     font-weight: 700;
+
     &__text{
         margin: 5px;
     }
     & span{
         font-weight: 400;
+        color: variables.$BlueNavy-light;
     }
 }
 
