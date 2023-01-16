@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $("#table_product").DataTable();
 
     $(".recomendar").on("click", function(){
