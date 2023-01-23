@@ -103,11 +103,11 @@ body {
   background-size: cover;
 }
 
-.container {
+.body_container {
   margin: 10px;
 }
 @media screen and (min-width: 720px) {
-  .container {
+  .body_container {
     margin: 40px;
   }
 }
