@@ -34,23 +34,27 @@
                 <div class="col-xs-12 col-sm-6">
                     <label for="form_user_name" class="form-label text-white">Nombre:</label>
                     <input type="text" name="" id="form__user-name" class="form-control w-100 mb-3" placeholder="Nombre">
+                    <p id="alert_name" class="text-danger"></p>
 
                     <label for="" class="form-label text-white">Apellido:</label>
                     <input type="text" name="" id="form__user_last-name" class="form-control w-100 mb-3" placeholder="Apellido">
+                    <p id="alert_lastName" class="text-danger"></p>
                 </div>
 
                 <div class="col-xs-12 col-sm-6">
                     <label for="" class="form-label text-white">Teléfono:</label>
                     <input type="text" name="" id="form__user-phone" class="form-control w-100 mb-3" placeholder="Teléfono">
+                    <p id="alert_phone" class="text-danger"></p>
 
                     <label for="" class="form-label text-white">Correo Electrónico</label>
                     <input type="text" name="" id="form__user-email" class="form-control w-100 mb-3" placeholder="Correo Electrónico">
+                    <p id="alert_email" class="text-danger"></p>
                 </div>
 
                 <div class="col-xs-12 col-sm-12">
                     <input type="checkbox" name="" id="form__chk-offer" class="form-control-check my-3">
                     <label for="form__chk-offer" class="form-label-check text-white">Enviarme ofertas</label>
-                    <input type="submit" value="Guardar" class="btn btn-success m-0">
+                    <input type="button" value="Guardar" class="btn btn-success m-0" id="btnGuardar">
                 </div>
             </form>
         </section>
@@ -82,5 +86,8 @@
 
     <!-- BOOTSTRAP JS V5.2 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <!-- CUSTOM JS -->
+    <script src="./js/admin.js"></script>
 </body>
 </html>
